@@ -77,7 +77,7 @@ while True:
 
     cv2.imshow('Image', drw)
 
-    k = cv2.waitKey(10)
+    k = cv2.waitKey(250)
     if k == 27:
         break
 
