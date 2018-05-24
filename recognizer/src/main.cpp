@@ -13,9 +13,9 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    Recognizer reco("/home/aluno/recognizer/haarcascade_frontalcatface.xml");
+    Recognizer reco("/home/aluno/recognizer/cascades/haarcascade_frontalcatface.xml");
 
-    Mat image = imread("/home/aluno/recognizer/cat.jpg");
+    Mat image = imread("/home/aluno/recognizer/images/cat.jpg");
 
     Mat result = reco.recognize(image);
 
